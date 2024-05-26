@@ -1,0 +1,9 @@
+# Initramfs hooks for Xiaomi Pocophone X3 Pro
+
+halium_hook_setup_touchscreen() {
+	echo 1 > /sys/class/leds/:kbd_backlight/brightness
+}
+
+halium_hook_teardown_touchscreen() {
+	echo 0 > /sys/class/leds/:kbd_backlight/brightness
+}
