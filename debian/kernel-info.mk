@@ -95,7 +95,7 @@ KERNEL_BOOTIMAGE_TAGS_OFFSET = 0x00000100
 
 # Required for header version 2, ignore otherwise
 # GKI devices should leave this offset empty
-KERNEL_BOOTIMAGE_DTB_OFFSET = 0x1f00000
+KERNEL_BOOTIMAGE_DTB_OFFSET = 0x0f00000
 
 # Kernel bootimage version. Defaults to 0 (legacy header).
 # As a rule of thumb:
