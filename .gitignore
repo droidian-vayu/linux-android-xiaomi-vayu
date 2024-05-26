@@ -134,7 +134,7 @@ Android.bp
 # Droidian
 !.gitmodules
 !debian
-debian/changelog
+!debian/changelog
 debian/path-override
 debian/*.substvars
 debian/*.debhelper
