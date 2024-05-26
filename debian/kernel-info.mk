@@ -135,7 +135,7 @@ FLASH_ENABLED = 1
 
 # If your device is treble-ized, but aonly, you should set the following to
 # 1 (yes).
-FLASH_IS_AONLY = 0
+FLASH_IS_AONLY = 1
 
 # `flash-bootimage` defaults are enough for most recent devices, but legacy
 # devices won't work out of the box.
@@ -157,21 +157,21 @@ FLASH_USE_TELNET = 0
 # Device manufacturer. This must match the `ro.product.vendor.manufacturer`
 # Android property. If you don't want to specify this, leave it undefined,
 # FLASH_INFO_CPU will be checked instead.
-FLASH_INFO_MANUFACTURER = Vendor
+FLASH_INFO_MANUFACTURER = Xiaomi
 
 # Device model. This must match the `ro.product.vendor.model`
 # Android property. If you don't want to specify this, leave it undefined,
 # FLASH_INFO_CPU will be checked instead.
-FLASH_INFO_MODEL = Device1
+FLASH_INFO_MODEL = M2102J20SG
 
 # Device CPU. This will be grepped against /proc/cpuinfo to check if
 # we're running on the specific device. Note this is a last-resort
 # method, specifying FLASH_INFO_MANUFACTURER and FLASH_INFO_MODEL is
 # recommended.
-FLASH_INFO_CPU = My Fictional System-on-a-Chip
+FLASH_INFO_CPU = Qualcomm Technologies, Inc SM8150
 
 # Space-separated list of supported device ids as reported by fastboot
-FLASH_INFO_DEVICE_IDS = model1 model2
+FLASH_INFO_DEVICE_IDS = sm8150
 
 ########################################################################
 # Kernel build settings
