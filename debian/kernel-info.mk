@@ -162,16 +162,17 @@ FLASH_INFO_MANUFACTURER = Xiaomi
 # Device model. This must match the `ro.product.vendor.model`
 # Android property. If you don't want to specify this, leave it undefined,
 # FLASH_INFO_CPU will be checked instead.
-FLASH_INFO_MODEL = M2102J20SG
+# FLASH_INFO_MODEL = M2102J20SG
+FLASH_INFO_MODEL = POCO X3 Pro
 
 # Device CPU. This will be grepped against /proc/cpuinfo to check if
 # we're running on the specific device. Note this is a last-resort
 # method, specifying FLASH_INFO_MANUFACTURER and FLASH_INFO_MODEL is
 # recommended.
-FLASH_INFO_CPU = Qualcomm Technologies, Inc SM8150
+# FLASH_INFO_CPU = Qualcomm Technologies, Inc SM8150
 
 # Space-separated list of supported device ids as reported by fastboot
-FLASH_INFO_DEVICE_IDS = sm8150
+# F#LASH_INFO_DEVICE_IDS = sm8151 2a03db75
 
 ########################################################################
 # Kernel build settings
