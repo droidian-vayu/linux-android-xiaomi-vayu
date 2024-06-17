@@ -1,4 +1,11 @@
-linux-android-xiaomi-vayu (4.14.190+droidian1+git20240528040842.a657110.droidian) trixie; urgency=medium
+linux-android-xiaomi-vayu (4.14.190+droidian2+git20240617033356.1920bed.droidian) trixie; urgency=medium
+
+  * Update debian/changelog
+  * (bootflash) kernel-info.mk: Disable auto image flashing since flash-bootimage is
+
+ -- berbascum <berbascum@ticv.cat>  Mon, 17 Jun 2024 05:33:56 +0200
+
+linux-android-xiaomi-vayu (4.14.190+droidian1) trixie; urgency=medium
 
   * (bootflash) kernel-info.mk: Fix device info that crashes the deb packages install
   * New build: Update changelog
