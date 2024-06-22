@@ -162,8 +162,8 @@ FLASH_INFO_MANUFACTURER = Xiaomi
 # Device model. This must match the `ro.product.vendor.model`
 # Android property. If you don't want to specify this, leave it undefined,
 # FLASH_INFO_CPU will be checked instead.
-# FLASH_INFO_MODEL = M2102J20SG
-FLASH_INFO_MODEL = POCO X3 Pro
+FLASH_INFO_MODEL = M2102J20SG
+#FLASH_INFO_MODEL = POCO X3 Pro
 
 # Device CPU. This will be grepped against /proc/cpuinfo to check if
 # we're running on the specific device. Note this is a last-resort
