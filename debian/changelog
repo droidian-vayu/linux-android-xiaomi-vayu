@@ -1,4 +1,12 @@
-linux-android-xiaomi-vayu (4.14.190+droidian2+git20240617033356.1920bed.droidian) trixie; urgency=medium
+linux-android-xiaomi-vayu (4.14.190+droidian3+git20240622093506.bc9ceb1.droidian) trixie; urgency=medium
+
+  * Update: debian/changelog
+  * (bootflash) kernel-info.mk: Fix model name from flashing image section
+  * (bootflash) kernel-info.mk: Enable postinstall bootimage flashing
+
+ -- berbascum <berbascum@ticv.cat>  Sat, 22 Jun 2024 11:35:06 +0200
+
+linux-android-xiaomi-vayu (4.14.190+droidian2) trixie; urgency=medium
 
   * Update debian/changelog
   * (bootflash) kernel-info.mk: Disable auto image flashing since flash-bootimage is
