@@ -1,4 +1,11 @@
-linux-android-xiaomi-vayu (4.14.190+droidian3+git20240622093506.bc9ceb1.droidian) trixie; urgency=medium
+linux-android-xiaomi-vayu (4.14.190+droidian4+git20240626114706.77cffca.droidian) trixie; urgency=medium
+
+  * Update debian changelog
+  * (bootflash) kernel-info.mk: Fix model name from flashing image section using
+
+ -- berbascum <berbascum@ticv.cat>  Wed, 26 Jun 2024 13:47:06 +0200
+
+linux-android-xiaomi-vayu (4.14.190+droidian3) trixie; urgency=medium
 
   * Update: debian/changelog
   * (bootflash) kernel-info.mk: Fix model name from flashing image section
