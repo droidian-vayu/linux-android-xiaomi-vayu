@@ -160,9 +160,13 @@ FLASH_USE_TELNET = 0
 FLASH_INFO_MANUFACTURER = Xiaomi
 
 # Device model. This must match the `ro.product.vendor.model`
+# On Xiaomi vayu there are different vendor images (miui 1lineage with diferent ro.ptoduct.vendor.model,
+# since the value configured is `ro.product.vendor.device`. A patch for flash-bootimage script
+# is also included in the droidian adaptation package
 # Android property. If you don't want to specify this, leave it undefined,
 # FLASH_INFO_CPU will be checked instead.
-FLASH_INFO_MODEL = M2102J20SG
+FLASH_INFO_MODEL = vayu
+#FLASH_INFO_MODEL = M2102J20SG
 #FLASH_INFO_MODEL = POCO X3 Pro
 
 # Device CPU. This will be grepped against /proc/cpuinfo to check if
